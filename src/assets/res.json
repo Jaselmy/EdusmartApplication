@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "Quel protocole fonctionne au niveau de la couche transport et fournit des circuits virtuels entre les hôtes?",
+            "options": [{
+                    "text": "TCP",
+                    "correct": true
+                },
+                {
+                    "text": "UDP"
+                },
+                {
+                    "text": "IP"
+                },
+                {
+                    "text": "ARP"
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Combien d octets sont nécessaires pour coder une adresse Ethernet?",
+            "options": [{
+                    "text": " 16"
+                },
+                {
+                    "text": " 8"
+                },
+                {
+                    "text": "9"
+                },
+                {
+                    "text": " 6",
+                    "correct": true
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Quelle plage d adresses peut être utilisée dans le premier octet d une adresse de classe C?",
+            "options": [{
+                    "text": "129-192"
+                },
+                {
+                    "text": "192-223",
+                    "correct": true
+                },
+                {
+                    "text": "203-234"
+                },
+                {
+                    "text": "1-127"
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Quel concept de Java est utilisé en combinant des méthodes et des attributs dans une classe?",
+            "options": [{
+                    "text": "Polymorphisme"
+                },
+                {
+                    "text": "Encapsulation",
+                    "correct": true
+                },
+                {
+                    "text": "Abstraction"
+                },
+                {
+                    "text": "Héritage"
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Comment ça s’appelle si un objet a son propre cycle de vie?",
+            "options": [{
+                    "text": " Association",
+                    "correct": true
+                },
+                {
+                    "text": " Encapsulation"
+                },
+                {
+                    "text": " Composition"
+                },
+                {
+                    "text": " Agrégation"
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Quel keyword est utilisé pour spécifier la visibilité des propriétés et des méthodes ?",
+            "options": [{
+                    "text": " final"
+                },
+                {
+                    "text": " private"
+                },
+                {
+                    "text": "any"
+                },
+                {
+                    "text": "abstract",
+                    "correct": true
+                }
+            ],
+            "explanation": " "
+        },
+        {
+            "questionText": "Diagramme de conception UML?",
+            "options": [{
+                    "text": "diagramme de uml"
+                },
+                {
+                    "text": "diagramme de cas d'utilisation",
+                    "correct": true
+                },
+                {
+                    "text": "diagramme de conception"
+                },
+                {
+                    "text": "diagramme de modélisation"
+                }
+            ],
+            "explanation": "Diagramme de cas d utilisation."
+        },
+        {
+            "questionText": "Un « BUS » informatique est composée de ______?",
+            "options": [{
+                    "text": "ensemble de lignes parallèles",
+                    "correct": true
+                },
+                {
+                    "text": "registres"
+                },
+                {
+                    "text": "horloge d’ordinateur"
+                },
+                {
+                    "text": "accumulateurs"
+                }
+            ],
+            "explanation": "Un BUS informatique est composée de lignes parallèles"
+        },
+        {
+            "questionText": "Un programme source est généralement écrit en _______.",
+            "options": [{
+                    "text": " Langage de haut niveau",
+                    "correct": true
+                },
+                {
+                    "text": "Langage naturel"
+                },
+                {
+                    "text": "Langage d assembleur"
+                },
+                {
+                    "text": "Langage au niveau de la machine"
+                }
+            ],
+            "explanation": "Langage de haut niveau est généralement le code d'un programme."
+        }
+    ]
+}

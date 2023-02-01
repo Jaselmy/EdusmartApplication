@@ -1,0 +1,59 @@
+<div class="container mt-3" style="color: white ">
+    <div class="card bg-dark">
+        <div class="d-flex justify-content-between p-3">
+            <div class="image" >
+                <i class="fa fa-graduation-cap" style="font-size:80px"></i>
+            </div>
+            <div class="quiz-header">
+                <h4 style="font-family: cursive;">Programmation Orientée Objet</h4>
+                <span style="font-style: italic; color:white;">Bienvenue {{namer}}</span>
+            </div>
+        </div>
+        <ng-container *ngIf="!isQuizCompleted">
+            <div class="d-flex justify-content-around py-3">
+                <div class="score">
+                    <h5>{{points}} Points</h5>
+                </div>
+                <div class="question-remain">
+                    <span style="font-style: italic;">Question {{currentQuestion+1}}/{{questionList.length}}</span>
+                </div>
+                <div class="timer">
+                    <h5>{{counter}} sec <i class="fa fa-clock-o"></i></h5>
+                </div>
+            </div>
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" [ngStyle]="{'width':progress+'%'}"></div>
+              </div>
+            <div class="questions">
+                <div class="card bg-dark">
+                    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                </div>
+            </div>
+            <div class="options">
+                <ol *ngFor="let option of questionList[currentQuestion]?.options">
+                    <li (click)="answer(currentQuestion+1,option)"><div appChangeBg [isCorrect]="option.correct" class="card " style="color: black">{{option.text}}</div></li>
+                </ol>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button [disabled]="currentQuestion===0" class="btn bg-dark" style="color: #068FC2;" (click)="previousQuestion()"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></button>
+                <button class="btn bg-dark" style="color: #068FC2;" (click)="resetQuiz()" ><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
+                <button [disabled]="currentQuestion>7"class="btn bg-dark" style="color: #068FC2;" (click)="nextQuestion()"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></button>
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="isQuizCompleted">
+            <div class="row d-flex justify-content-between">
+                <img style="width:50%;" class="img-fluid col-sm-12 mx-auto" src="https://icon-library.com/images/celebration-icon-png/celebration-icon-png-7.jpg" alt=""> 
+            <div class="result text-center col-md-6 col-sm-12">
+                <h1>Félicitations! </h1>
+                <h3>Vous avez terminé le test ! <br><br> Voici le résultat :</h3>
+                <p>Réponses correctes: {{correctAnswer}}</p>
+                <p>Réponses fausses: {{incorrectAnswer}}</p>
+                <p>Score: {{points}} Points</p>
+                <br><br>
+                <a class="btn" [routerLink]="'/test'" style="color: yellow; font-family: italic;">Cliquez ici pour choisir un autre test.</a>
+            </div>
+        </div>
+          </ng-container>
+    </div>
+</div>

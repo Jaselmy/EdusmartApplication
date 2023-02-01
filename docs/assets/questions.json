@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "C est un langage de programmation:",
+            "options": [{
+                    "text": "Compilé",
+                    "correct": true
+                },
+                {
+                    "text": "Interprété"
+                },
+                {
+                    "text": "Interprété et compilé"
+                },
+                {
+                    "text": "C n'est pas un langage de programmation"
+                }
+            ],
+            "explanation": "C est un langage de programmation compilé."
+        },
+        {
+            "questionText": "Quelle est la mémoire qui permet lopération de lecture et décriture simultanées?",
+            "options": [{
+                    "text": "EPROM"
+                },
+                {
+                    "text": "ROM"
+                },
+                {
+                    "text": "EEROM"
+                },
+                {
+                    "text": "RAM",
+                    "correct": true
+                }
+            ],
+            "explanation": "RAM: mémoire vive."
+        },
+        {
+            "questionText": "Qui nest pas considéré comme un périphérique de lordinateur?",
+            "options": [{
+                    "text": "Disque"
+                },
+                {
+                    "text": "CPU",
+                    "correct": true
+                },
+                {
+                    "text": "Moniteur"
+                },
+                {
+                    "text": "Clavier"
+                }
+            ],
+            "explanation": "CPU est un processeur."
+        },
+        {
+            "questionText": "Comment peut on aussi ecrire Array<number> en TypeScript?",
+            "options": [{
+                    "text": "@number"
+                },
+                {
+                    "text": "number[]",
+                    "correct": true
+                },
+                {
+                    "text": "number!"
+                },
+                {
+                    "text": "number?"
+                }
+            ],
+            "explanation": "number[] est une autre methode pour ecrire Array<number> en TypeScript"
+        },
+        {
+            "questionText": "Dans une bdd on trouve des:",
+            "options": [{
+                    "text": "Tables",
+                    "correct": true
+                },
+                {
+                    "text": "Tableaux"
+                },
+                {
+                    "text": "Tablettes"
+                },
+                {
+                    "text": "Tuples"
+                }
+            ],
+            "explanation": "Table est un ensemble d enregistrements d une bdd."
+        },
+        {
+            "questionText": "Commande pour créer un répertoire :",
+            "options": [{
+                    "text": "create"
+                },
+                {
+                    "text": "mkdir"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "mkdir",
+                    "correct": true
+                }
+            ],
+            "explanation": "mkdir est une commende de création d un répertoire."
+        },
+        {
+            "questionText": "Diagramme de conception UML?",
+            "options": [{
+                    "text": "diagramme de uml"
+                },
+                {
+                    "text": "diagramme de cas d'utilisation",
+                    "correct": true
+                },
+                {
+                    "text": "diagramme de conception"
+                },
+                {
+                    "text": "diagramme de modélisation"
+                }
+            ],
+            "explanation": "Diagramme de cas d utilisation."
+        },
+        {
+            "questionText": "Un « BUS » informatique est composée de ______?",
+            "options": [{
+                    "text": "ensemble de lignes parallèles",
+                    "correct": true
+                },
+                {
+                    "text": "registres"
+                },
+                {
+                    "text": "horloge d’ordinateur"
+                },
+                {
+                    "text": "accumulateurs"
+                }
+            ],
+            "explanation": "Un BUS informatique est composée de lignes parallèles"
+        },
+        {
+            "questionText": "Un programme source est généralement écrit en _______.",
+            "options": [{
+                    "text": " Langage de haut niveau",
+                    "correct": true
+                },
+                {
+                    "text": "Langage naturel"
+                },
+                {
+                    "text": "Langage d assembleur"
+                },
+                {
+                    "text": "Langage au niveau de la machine"
+                }
+            ],
+            "explanation": "Langage de haut niveau est généralement le code d'un programme."
+        }
+    ]
+}
