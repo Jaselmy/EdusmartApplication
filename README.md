@@ -2,13 +2,13 @@ Bienvenue dans l'application Edusmart, une plateforme dédiée à l'auto-apprent
 
 Fonctionnalités principales:
 -Parcours de cours .
--Compilation de code en direct.
+-Compilation de code en direct à travers un lien dirigé.
 -Tests chronométrés d'évaluation des connaissances.
 
 Comment utiliser l'application:
 -Parcourez la liste de cours disponibles.
 -Ouvrez le fichier PDF du cours, vous pouvez le télécharger.
--Compilez votre code.
+-Compilez votre code à travers un lien dirigé.
 -Insérez votre nom et choisissez un test que vous voulez passer pour évaluer vos connaissances.
 
 Pourquoi utiliser l'application Edusmart:
